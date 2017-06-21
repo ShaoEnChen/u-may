@@ -11,5 +11,10 @@
 ?>
 <!-- umay logo -->
 <div class="site-info">
-	<p>&copy; Sanlifood Co.,Ltd. All Rights Reserved. Produced by Sanlifood Honsha Co.,Ltd.</p>
+	<div class="brand">
+		<img class="brand-logo" src="wp-content/themes/custom/assets/images/umay.png" alt="logo">
+	</div>
+	<p class="copyright">
+		&copy; Sanlifood Co.,Ltd. All Rights Reserved. Produced by Sanlifood Honsha Co.,Ltd.
+	</p>
 </div><!-- .site-info -->

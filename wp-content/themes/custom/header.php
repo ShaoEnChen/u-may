@@ -32,6 +32,11 @@
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top site-navigation-fixed">
+				<a href="">
+					<div class="brand">
+						<img class="brand-logo" src="wp-content/themes/custom/assets/images/umay.png" alt="logo">
+					</div>
+				</a>
 				<div class="wrap">
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->
