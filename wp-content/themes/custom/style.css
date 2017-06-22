@@ -534,19 +534,29 @@ Navigation
 Main Content
 --------------------------------------------------------------*/
 
+#page {
+	background: #E9F9FF url('assets/images/frontpage-main/blue-stripe.jpg') repeat;
+}
+
 .main-content {
 	width: 100%;
 }
 
 .main-content .content-container {
-	width: 80%;
+	width: 92%;
 	margin: 0 auto;
 }
 
 .main-content .content-container img {
-	max-width: 100%;
 	width: 100%;
 	height: auto;
+}
+
+.main-content #jelly-drinks,
+.main-content #jelly {
+	width: 48%;
+	margin: 0 1%;
+	display: inline-block;
 }
 
 /*--------------------------------------------------------------
@@ -555,11 +565,15 @@ Footer
 
 /* Site info */
 
+footer {
+	background: #fff;
+}
+
 .site-info {
 	text-align: center;
 	font-size: 14px;
 	font-size: 0.875rem;
-	margin-bottom: 1em;
+	padding: 1em 0;
 }
 
 .site-info .brand,
@@ -644,6 +658,28 @@ Media Query
 
 	.main-navigation a {
 		padding: 1em 1.25em;
+	}
+
+	/* Main content */
+
+	.main-row {
+		width: 96%;
+		margin: 0 auto 1.5em;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#products-showcase,
+	#endorsers,
+	#brand-introduction,
+	#main-faq,
+	#main-order-query {
+		display: inline-block;
+	}
+
+	#endorsers .content-container {
+		width: 100%;
+		margin: 0;
 	}
 }
 

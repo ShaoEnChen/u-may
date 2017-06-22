@@ -11,39 +11,43 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		<div class="main-content" id="products-showcase">
-			<div class="content-container" id="jelly-drinks">
-				<img src="wp-content/themes/custom/assets/images/frontpage-main/product-jelly-drinks.jpg" alt="">
-			</div>
-			<div class="content-container" id="jelly">
-				<img src="wp-content/themes/custom/assets/images/frontpage-main/product-jelly.jpg" alt="">
-			</div>
-		</div>
-		<div class="main-content" id="endorsers">
-			<div class="content-container">
-				<img src="wp-content/themes/custom/assets/images/frontpage-main/endorsers.jpg" alt="">
-			</div>
-		</div>
-		<div class="main-content" id="main-brand-introduction">
-			<a href="">
-				<div class="content-container">
-					<img src="wp-content/themes/custom/assets/images/frontpage-main/product-introduction.jpg" alt="">
+		<div class="main-row">
+			<div class="main-content" id="products-showcase">
+				<div class="content-container" id="jelly-drinks">
+					<img src="wp-content/themes/custom/assets/images/frontpage-main/product-jelly-drinks.jpg" alt="">
+				</div><!-- To omit space of inline-block
+			 --><div class="content-container" id="jelly">
+					<img src="wp-content/themes/custom/assets/images/frontpage-main/product-jelly.jpg" alt="">
 				</div>
-			</a>
-		</div>
-		<div class="main-content" id="main-faq">
-			<a href="">
+			</div><!-- To omit space of inline-block
+		 --><div class="main-content" id="endorsers">
 				<div class="content-container">
-					<img src="wp-content/themes/custom/assets/images/frontpage-main/faq.jpg" alt="">
+					<img src="wp-content/themes/custom/assets/images/frontpage-main/endorsers.jpg" alt="">
 				</div>
-			</a>
+			</div>
 		</div>
-		<div class="main-content" id="main-order-query">
-			<a href="">
-				<div class="content-container">
-					<img src="wp-content/themes/custom/assets/images/frontpage-main/order-query.jpg" alt="">
-				</div>
-			</a>
+		<div class="main-row">
+			<div class="main-content" id="brand-introduction">
+				<a href="">
+					<div class="content-container">
+						<img src="wp-content/themes/custom/assets/images/frontpage-main/product-introduction.jpg" alt="">
+					</div>
+				</a>
+			</div><!-- To omit space of inline-block
+		 --><div class="main-content" id="main-faq">
+				<a href="">
+					<div class="content-container">
+						<img src="wp-content/themes/custom/assets/images/frontpage-main/faq.jpg" alt="">
+					</div>
+				</a>
+			</div><!-- To omit space of inline-block
+		 --><div class="main-content" id="main-order-query">
+				<a href="">
+					<div class="content-container">
+						<img src="wp-content/themes/custom/assets/images/frontpage-main/order-query.jpg" alt="">
+					</div>
+				</a>
+			</div>
 		</div>
 	</main><!-- #main -->
 </div><!-- #primary -->
